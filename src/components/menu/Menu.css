@@ -1,7 +1,70 @@
-ul{
+nav ul{
+    display: none;
+    list-style-type: none;
+    background-color: whitesmoke;
+}
+
+nav input[type=checkbox]:checked + ul{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+}
+
+nav input[type=checkbox]{
+    display: none;
+    background-color: blue;
+    color: white;
+}
+
+nav label {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.conteneur-nav {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 30%;
-    height: 100%;
+    width: 100%;
+}
+
+.sous{
+    display: flex;
+    flex-flow: column wrap;
+    z-index: 1000;
+}
+
+.sous li {
+    flex: 1 1 auto;
+    text-align: left;
+    margin-bottom: 25px;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Segoe UI';
+}
+
+.titre-section {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
 }

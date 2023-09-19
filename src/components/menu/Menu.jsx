@@ -13,30 +13,34 @@ const Menu = () => {
     
 
   return (
-    <div>
-        <ul>
-            <li>
-                Diagrame UML
-                <ul>
-                    <li>Diagramme de cas d'utilisation</li>
-                    <li>Diagramme de classe</li>
-                    <li>Diagramme d'état</li>
-                    <li>Diagramme de composants</li>
-                    <li>Diagramme d'activité</li>
-                    <li>Diagramme de séquence</li>
-                </ul>
-            </li>
+    <nav>
+        <div className='conteneur-nav'>
+            <label htmlFor="menu">Menu</label>
+            <input type="checkbox" name="menu" id="menu" role='button' />
+            <ul>
+                <li className='deroulant'>
+                    <p className='titre-section'>Diagrame UML</p>
+                    <ul className='sous'>
+                        <li><NavLink to={""}>Diagramme de cas d'utilisation</NavLink></li>
+                        <li><NavLink to={""}>Diagramme de classe</NavLink></li>
+                        <li><NavLink to={""}>Diagramme d'état</NavLink></li>
+                        <li><NavLink to={""}>Diagramme de composants</NavLink></li>
+                        <li><NavLink to={""}>Diagramme d'activité</NavLink></li>
+                        <li><NavLink to={""}>Diagramme de séquence</NavLink></li>
+                    </ul>
+                </li>
 
-            <li>
-                Diagramme de MERISE
-                <ul>
-                    <li>Modèle conceptuel des données</li>
-                    <li>Modèle organisationnel des données</li>
-                    <li>Modèle physique des données</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+                <li className='deroulant'>
+                    <p className='titre-section'>Diagramme de MERISE</p>
+                    <ul className='sous'>
+                        <li><NavLink to={"/MCD" }>Modèle conceptuel des données</NavLink></li>
+                        <li><NavLink to={""}>Modèle organisationnel des données</NavLink></li>
+                        <li><NavLink to={""}>Modèle physique des données</NavLink></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
   )
 }
 
