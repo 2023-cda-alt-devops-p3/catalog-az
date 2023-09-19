@@ -28,7 +28,7 @@ const Menu = () => {
                     <ul className='sous'>
                         <li><NavLink to={"/MCD" }>Modèle conceptuel des données</NavLink></li>
                         <li><NavLink to={"MOD"}>Modèle organisationnel des données</NavLink></li>
-                        <li><NavLink to={"MDP"}>Modèle physique des données</NavLink></li>
+                        <li><NavLink to={"Mpd"}>Modèle physique des données</NavLink></li>
                     </ul>
                 </li>
             </ul>
