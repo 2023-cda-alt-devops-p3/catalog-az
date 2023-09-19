@@ -1,9 +1,10 @@
+import Accueil from './Accueil.jsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <h1>New App</h1>
+     <Accueil />
     </div>
   );
 }

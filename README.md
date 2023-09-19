@@ -1,8 +1,12 @@
-Digramme UML : 
-- Diagramme de composants
-- Diagramme de séquence
-- <strong> Diagramme d'activités</strong>
+Digramme UML :
+    - Diagramme de cas d'utilisation
+    - Diagramme de classe
+    - Diagramme d'état
+    - Diagramme de composants
+    - Diagramme d'activité 
+    - Diagramme de séquence
+    
 Diagramme Merise : 
-- <strong>Le MCD</strong> 
-- Le MPD
-- LE MLD
+    - Modèle conceptuel des données (MCD)
+    - Modèle organisationnel des données (MOD)
+    - Modèle physique des données (MPD)
