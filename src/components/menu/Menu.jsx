@@ -21,12 +21,12 @@ const Menu = () => {
                 <li className='deroulant'>
                     <p className='titre-section'>Diagrame UML</p>
                     <ul className='sous'>
-                        <li><NavLink to={""}>Diagramme de cas d'utilisation</NavLink></li>
-                        <li><NavLink to={""}>Diagramme de classe</NavLink></li>
-                        <li><NavLink to={""}>Diagramme d'état</NavLink></li>
-                        <li><NavLink to={""}>Diagramme de composants</NavLink></li>
-                        <li><NavLink to={""}>Diagramme d'activité</NavLink></li>
-                        <li><NavLink to={""}>Diagramme de séquence</NavLink></li>
+                        <li><NavLink to={"/DCU"}>Diagramme de cas d'utilisation</NavLink></li>
+                        <li><NavLink to={"/DC"}>Diagramme de classe</NavLink></li>
+                        <li><NavLink to={"/DE"}>Diagramme d'état</NavLink></li>
+                        <li><NavLink to={"DComp"}>Diagramme de composants</NavLink></li>
+                        <li><NavLink to={"DA"}>Diagramme d'activité</NavLink></li>
+                        <li><NavLink to={"DS"}>Diagramme de séquence</NavLink></li>
                     </ul>
                 </li>
 
@@ -34,8 +34,8 @@ const Menu = () => {
                     <p className='titre-section'>Diagramme de MERISE</p>
                     <ul className='sous'>
                         <li><NavLink to={"/MCD" }>Modèle conceptuel des données</NavLink></li>
-                        <li><NavLink to={""}>Modèle organisationnel des données</NavLink></li>
-                        <li><NavLink to={""}>Modèle physique des données</NavLink></li>
+                        <li><NavLink to={"MOD"}>Modèle organisationnel des données</NavLink></li>
+                        <li><NavLink to={"MDP"}>Modèle physique des données</NavLink></li>
                     </ul>
                 </li>
             </ul>

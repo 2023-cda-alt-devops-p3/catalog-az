@@ -3,7 +3,7 @@ import Menu from './components/menu/Menu'
 
 const Acceuil = () => {
   return (
-    <div className='flex'>
+    <div>
       <Menu />
     </div>
   )
