@@ -1,16 +1,9 @@
 import React from 'react';
-import { useState } from 'react';
 import './Menu.css';
 import { NavLink } from 'react-router-dom';
-import { FaTimes, FaBars } from 'react-icons/fa';
-import logo from '../../logo.svg';
 
 
 const Menu = () => {
-
-    const [nav, setNav ] = useState(false);
-
-    
 
   return (
     <nav>
