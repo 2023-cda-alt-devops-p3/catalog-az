@@ -25,6 +25,7 @@ const Menu = () => {
                 <li className='deroulant'>
                     <p className='titre-section'>Diagrame UML</p>
                     <ul className='sous'>
+                        <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
                         <li><NavLink to={"/DCU"}>Diagramme de cas d'utilisation</NavLink></li>
                         <li><NavLink to={"/DC"}>Diagramme de classe</NavLink></li>
                         <li><NavLink to={"/DE"}>Diagramme d'état</NavLink></li>

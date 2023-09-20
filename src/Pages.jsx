@@ -9,6 +9,7 @@ import DiagActivite from "./components/DiagActivite";
 import DiagSequence from "./components/DiagSequence";
 import Mpd from './components/Mpd';
 import Mod from './components/Mod';
+import Overview from './components/Overview';
 
 const Pages = () => {
     const location = useLocation();
@@ -23,6 +24,7 @@ const Pages = () => {
         <Route path='/DS' element={<DiagSequence />}  />
         <Route path='/MOD' element={<Mod />}  />
         <Route path='/MPD' element={<Mpd />}  />
+        <Route path='/overview' element={<Overview />}  />
     </Routes>
   )
 }
