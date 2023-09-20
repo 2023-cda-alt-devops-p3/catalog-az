@@ -20,7 +20,7 @@ export const CardInfos =
     },
     {
         id: 2,
-        title: "Diagramme de cas",
+        title: "Diagramme de cas d'utilisations",
         url: "/DCU",
         img: exempleDCU,
         spec: "UML"

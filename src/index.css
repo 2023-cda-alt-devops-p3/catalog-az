@@ -86,6 +86,7 @@ body {
 .cards {
   background-color: var(--color-2);
   max-width: 20rem;
+  height: 700px;
   display: flex;
   flex-direction: column;
   padding: 1.5rem 1rem;

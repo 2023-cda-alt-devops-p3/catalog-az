@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 nav ul{
     display: none;
     list-style-type: none;
@@ -28,6 +31,7 @@ nav label {
     text-align: center;
     background-color: blue;
     color: white;
+    font-family : Lexend, sans-serif;
 }
 
 .conteneur-nav {
@@ -57,7 +61,7 @@ a{
     border-bottom: none;
     background-color: whitesmoke;
     color: black;
-    font-family: 'Segoe UI';
+    font-family: Lexend;
 }
 
 .titre-section {
@@ -75,6 +79,6 @@ a{
 }
 
 .h4 a{
-    font-family : Rubik Mono One, sans-serif;
+    font-family : Lexend, sans-serif;
     font-size : 25px;
 }
