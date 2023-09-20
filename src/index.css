@@ -39,6 +39,9 @@
     height: 400px;
 }
 
+
+
+
 /* IMPORT STYLE CARD */
 
 
@@ -177,7 +180,21 @@ body {
     color: var(--color-2);
 }
 
-img {
+
+/* RESPONSIVE */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    img {
+        max-height: 180px;
+        
+    } 
+    
+  }
+
+@media only screen and (max-width: 600px) {
+    img {
     width: 300px;
-    height: 150px
-}
+    height: 150px;
+    }
+    }
