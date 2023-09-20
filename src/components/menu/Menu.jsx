@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Menu.css';
 import { NavLink } from 'react-router-dom';
+import { GrClose } from 'react-icons/gr';
+import { useNavigate } from 'react-router-dom';
 
 
 const Menu = () => {
+ const navigate = useNavigate();
+ const [close, setClose] = useState(false);
+ useEffect(() => {
+    navigate("")
+ }, [close]);
 
   return (
     <nav>
         <div className='conteneur-nav'>
-            <label htmlFor="menu">Menu</label>
+            <div className='flex'>
+                <label htmlFor="menu">Menu</label>
+                <GrClose  className="icon-menu" size={30} onClick={() => {setClose(true); navigate("/")}}/>
+            </div>
+            
             <input type="checkbox" name="menu" id="menu" role='button' />
             <ul>
                 <li className='deroulant'>
