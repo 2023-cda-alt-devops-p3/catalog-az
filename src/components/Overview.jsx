@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Overview = () => {
   return (
-    <div className="card-container mt-10">
+    <div className="card-container mt-50">
           {
             CardInfos.map(({id, title, img, url, spec}) => (
                     <div className="cards" key={id}>
