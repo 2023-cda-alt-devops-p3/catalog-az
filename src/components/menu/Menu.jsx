@@ -12,21 +12,29 @@ const Menu = () => {
     navigate("")
  }, [close]);
 
+
+ const closeMenu = (e) => {
+ let isChecked = document.getElementById('menu');
+ let menu = document.getElementById('list-menu');
+ isChecked.checked ? menu.style.display = "none" : menu.style.display = "flex";
+ console.log(isChecked.checked);
+ }
+
   return (
     <nav>
         <div className='conteneur-nav'>
             <div className='flex'>
-                <label htmlFor="menu">Menu</label>
+                <label htmlFor="menu" id='title-menu' onClick={closeMenu}>Menu</label>
                 <GrClose  className="icon-menu" size={30} onClick={() => {setClose(true); navigate("/")}}/>
             </div>
             
             <input type="checkbox" name="menu" id="menu" role='button' />
-            <ul>
+            <ul id='list-menu'>
                 <li className='deroulant'>
                     <p className='titre-section'>Diagrame UML</p>
                     <ul className='sous'>
                         <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
-                        <li><NavLink to={"/DCU"}>Diagramme de cas d'utilisation</NavLink></li>
+                        <li><NavLink to={"/DCU"} onClick={closeMenu} >Diagramme de cas d'utilisation</NavLink></li>
                         <li><NavLink to={"/DC"}>Diagramme de classe</NavLink></li>
                         <li><NavLink to={"/DE"}>Diagramme d'état</NavLink></li>
                         <li><NavLink to={"DComp"}>Diagramme de composants</NavLink></li>
