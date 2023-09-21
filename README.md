@@ -25,8 +25,8 @@
     - Modèle conceptuel des données (MCD) :
         Le MCD fournit une description graphique pour représenter des modèles de données sous la forme de diagrammes pouvant contenir des entités ou des associations. Il peut être utilisé pour décrire les besoins en information ou par exemple le genre d'information nécessaire à l'élaboration du cahier des charges.
 
-    - Modèle organisationnel des données (MOD) : 
-        Représentation des données mémorisables sans tenir compte des contraintes organisationnelles ou techniques, ni des traitements. Modèle organisationnel des données (MOD) : Prise en compte des contraintes organisationnelles et de certaines contraintes techniques.
+    - Modèle logiques des données (MLD) : 
+        Un Modèle Logique des Données (MLD) est une représentation textuelle de la base de données à informatiser consécutive au travail d'analyse MCD et MPD. À noter que le MLD prend parfois un R et devient MLDR ou MLD-R : le R signifiant simplement Relationnel.
 
     - Modèle physique des données (MPD) :
         Dans la méthode Merise, le modèle physique des données (MPD) consiste à implanter une base de données dans un SGBDR. Le langage utilisé pour ce type d'opération est le SQL.

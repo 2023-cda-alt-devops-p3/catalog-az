@@ -46,7 +46,7 @@ const Menu = () => {
                     <p className='titre-section'>Diagramme de MERISE</p>
                     <ul className='sous'>
                         <li><NavLink to={"/MCD" }>Modèle conceptuel des données</NavLink></li>
-                        <li><NavLink to={"MOD"}>Modèle organisationnel des données</NavLink></li>
+                        <li><NavLink to={"MLD"}>Modèle logiques des données</NavLink></li>
                         <li><NavLink to={"Mpd"}>Modèle physique des données</NavLink></li>
                     </ul>
                 </li>

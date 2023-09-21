@@ -8,7 +8,7 @@ import DiagComposants from './components/DiagComposants';
 import DiagActivite from "./components/DiagActivite";
 import DiagSequence from "./components/DiagSequence";
 import Mpd from './components/Mpd';
-import Mod from './components/Mod';
+import Mld from './components/Mld';
 import Overview from './components/Overview';
 
 
@@ -25,7 +25,7 @@ const Pages = () => {
         <Route path='/DComp' element={<DiagComposants />}  />
         <Route path='/DA' element={<DiagActivite />}  />
         <Route path='/DS' element={<DiagSequence />}  />
-        <Route path='/MOD' element={<Mod />}  />
+        <Route path='/MLD' element={<Mld />}  />
         <Route path='/MPD' element={<Mpd />}  />
         <Route path='/overview' element={<Overview />}  />
     </Routes>

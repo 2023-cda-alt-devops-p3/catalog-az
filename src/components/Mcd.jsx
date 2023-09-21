@@ -9,6 +9,10 @@ const Mcd = () => {
       <div className='mt-50'>
         <img  className="img-diag"src={exempleMCD} alt="exemple_Diag_Activite" />
         <p className='mt-10'>Le MCD fournit une description graphique pour représenter des modèles de données sous la forme de diagrammes pouvant contenir des entités ou des associations. Il peut être utilisé pour décrire les besoins en information ou par exemple le genre d'information nécessaire à l'élaboration du cahier des charges.</p>
+        <p className='mt-10'>
+          Le Modèle Conceptuel de données est une formalisation d’une structure et la signification des informations pouvant décrire des objets et des associations qui sont perçus comme ayant un intérêt dans le domaine étudié tout en faisant abstraction des solutions et des contraintes techniques informatiques d’implantation en base de données.
+          Le Modèle Conceptuel de données a un objectif simple: modéliser le discours métier sans anticiper les solutions relationnelles de mise en oeuvre.
+        </p>
       </div>
      
     </div>
