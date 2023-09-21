@@ -8,7 +8,7 @@ const DiagActivite = () => {
         <h1 className="text-center mt-10" >Diagramme UML d'Activités</h1>
         <div className='mt-50'>
           <img  className="img-diag"src={exempleDA} alt="exemple_Diag_Activite" />
-          <p className='mt-10'>
+          <p className='mt-10 text-info'>
 Le diagramme d’activité (Activity Diagram) fait parti des diagrammes comportementaux. Il est utilisé pour modéliser les aspects dynamiques d'un système. Il s'agit de représenter les opérations d'un processus et leurs conséquences sur les objets (logiciels ou matériels). La modélisation peut être utilisée pour décrire le déroulement d'un cas
 d'utilisation ou d'une méthode.
 <br />

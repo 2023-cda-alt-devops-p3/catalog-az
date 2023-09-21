@@ -43,6 +43,9 @@
     height: 400px;
 }
 
+.text-info {
+  font-size: 18px;
+}
 
 
 
@@ -203,5 +206,8 @@ body {
   .img-diag {
     width: 100%;
     height: 700px;
+  }
+  .text-info {
+    font-size: 32px;
   }
 }
