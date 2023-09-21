@@ -9,7 +9,7 @@ const Menu = () => {
  const navigate = useNavigate();
  const [close, setClose] = useState(false);
  useEffect(() => {
-    navigate("")
+    navigate("/")
  }, [close]);
 
 
@@ -24,7 +24,7 @@ const Menu = () => {
         <div className='conteneur-nav'>
             <div className='flex'>
                 <label htmlFor="menu" id='title-menu' onClick={closeMenu}>Menu</label>
-                <GrClose  className="icon-menu" size={30} onClick={() => {setClose(true); navigate("")}}/>
+                <GrClose  className="icon-menu" size={30} onClick={() => {setClose(true); navigate("/")}}/>
             </div>
             
             <input type="checkbox" name="menu" id="menu" role='button' />
