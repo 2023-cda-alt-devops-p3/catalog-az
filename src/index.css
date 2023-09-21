@@ -47,6 +47,15 @@
   font-size: 18px;
 }
 
+.basket-button {
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+}
+
 
 
 /* IMPORT STYLE CARD */
@@ -165,25 +174,6 @@ body {
 .price {
   font-size: 2rem;
   color: var(--color-3);
-}
-
-.basket-button {
-  font-size: 1.25rem;
-  padding: 0.5em;
-  border: solid;
-  border-width: 0.2rem;
-  border-radius: 30%;
-  cursor: pointer;
-  outline: none;
-  background: var(--color-2);
-  transition: border .2s ease, background-color .2s ease, color .2s ease;
-}
-
-.basket-button:hover{
-    background-color: var(--color-5);
-    border-color: var(--color-5);
-    border-color: var(--color-5);
-    color: var(--color-2);
 }
 
 .cards img {
