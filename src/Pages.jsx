@@ -10,6 +10,7 @@ import DiagSequence from "./components/DiagSequence";
 import Mpd from './components/Mpd';
 import Mod from './components/Mod';
 import Overview from './components/Overview';
+import App from './App';
 
 
 const Pages = () => {

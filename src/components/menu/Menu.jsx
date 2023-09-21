@@ -17,7 +17,6 @@ const Menu = () => {
  let isChecked = document.getElementById('menu');
  let menu = document.getElementById('list-menu');
  isChecked.checked ? menu.style.display = "none" : menu.style.display = "flex";
- console.log(isChecked.checked);
  }
 
   return (
@@ -25,7 +24,7 @@ const Menu = () => {
         <div className='conteneur-nav'>
             <div className='flex'>
                 <label htmlFor="menu" id='title-menu' onClick={closeMenu}>Menu</label>
-                <GrClose  className="icon-menu" size={30} onClick={() => {setClose(true); navigate("/")}}/>
+                <GrClose  className="icon-menu" size={30} onClick={() => {setClose(true); navigate("")}}/>
             </div>
             
             <input type="checkbox" name="menu" id="menu" role='button' />
