@@ -11,12 +11,14 @@ import Mpd from './components/Mpd';
 import Mod from './components/Mod';
 import Overview from './components/Overview';
 import App from './App';
+import Menu from './components/menu/Menu';
 
 
 const Pages = () => {
     const location = useLocation();
   return (
     <Routes location={location} key={location.pathname}>
+        <Route path='/' element={""}  />
         <Route path='/MCD' element={<Mcd />}  />
         <Route path='/DCU' element={<DiagCasUtilisation />}  />
         <Route path='/DC' element={<DiagClasses />}  />
