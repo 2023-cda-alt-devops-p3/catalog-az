@@ -181,6 +181,10 @@ body {
     color: var(--color-2);
 }
 
+.cards img {
+    max-height: 140px;
+}
+
 
 /* RESPONSIVE */
 
