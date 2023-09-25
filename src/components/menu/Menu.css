@@ -82,3 +82,37 @@ a{
     font-family : Lexend, sans-serif;
     font-size : 25px;
 }
+
+ li a {
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .titre-section {
+        font-size: 32px;
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:640px){
+    .titre-section {
+        font-size: 38px;
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    li a{
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    li a:hover {
+        width: 180%;
+        transition: 1s ease-in ease;
+    }
+  }
