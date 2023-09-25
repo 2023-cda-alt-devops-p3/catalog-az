@@ -6,7 +6,7 @@ const DiagSequence = () => {
     <div className='w-80 m-auto'>
     <div className="m-auto mt-10"> 
       <h1 className="text-center mt-10" >Diagramme de séquence</h1>
-      <div className='mt-50 w-80 m-auto'>
+      <div className='mt-50 desktop'>
         <img  className="img-diag"src={exempleDS} alt="exemple_Diag_Activite" />
         <p className='mt-10 text-info'>Les diagrammes de séquence permettent d'identifier les classes requises par un système et le comportement des objets de classes au cours des interactions. Vous pouvez détailler les diagrammes de séquence et montrer comment un système accomplit les interactions.</p>
         <p className='mt-10 text-info'>

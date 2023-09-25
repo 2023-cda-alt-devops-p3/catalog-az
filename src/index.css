@@ -203,4 +203,8 @@ body {
   .text-info {
     font-size: 32px;
   }
+  .desktop{
+    margin: auto;
+    width: 80%;
+  }
 }
