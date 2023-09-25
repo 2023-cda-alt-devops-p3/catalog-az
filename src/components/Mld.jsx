@@ -6,7 +6,7 @@ const Mod = () => {
     <div className='w-80 m-auto'>
     <div className="m-auto mt-10"> 
       <h1 className="text-center mt-10" >Modèle logiques des données</h1>
-      <div className='mt-50'>
+      <div className='mt-50 w-80 m-auto'>
         <img  className="img-diag"src={exempleMLD} alt="exemple_Diag_Activite" />
         <p className='mt-10 text-info'>Un Modèle Logique des Données (MLD) est une représentation textuelle de la base de données à informatiser consécutive au travail d'analyse MCD et MPD. À noter que le MLD prend parfois un R et devient MLDR ou MLD-R : le R signifiant simplement Relationnel.</p>
         <p className='mt-10 text-info'>
