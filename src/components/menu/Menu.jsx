@@ -27,12 +27,12 @@ const Menu = () => {
                     <p className='titre-section'>Diagrame UML</p>
                     <ul className='sous'>
                         <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
-                        <li><NavLink to={"/DCU"} onClick={closeMenu} >Diagramme de cas d'utilisation</NavLink></li>
-                        <li><NavLink to={"/DC"}>Diagramme de classe</NavLink></li>
-                        <li><NavLink to={"/DE"}>Diagramme d'état</NavLink></li>
-                        <li><NavLink to={"DComp"}>Diagramme de composants</NavLink></li>
-                        <li><NavLink to={"DA"}>Diagramme d'activité</NavLink></li>
-                        <li><NavLink to={"DS"}>Diagramme de séquence</NavLink></li>
+                        <li className='diagramme'><NavLink to={"/DCU"} onClick={closeMenu} >Diagramme de cas d'utilisation</NavLink></li>
+                        <li className='diagramme'><NavLink to={"/DC"}>Diagramme de classe</NavLink></li>
+                        <li className='diagramme'><NavLink to={"/DE"}>Diagramme d'état</NavLink></li>
+                        <li className='diagramme'><NavLink to={"DComp"}>Diagramme de composants</NavLink></li>
+                        <li className='diagramme'><NavLink to={"DA"}>Diagramme d'activité</NavLink></li>
+                        <li className='diagramme'><NavLink to={"DS"}>Diagramme de séquence</NavLink></li>
                     </ul>
                 </li>
 
