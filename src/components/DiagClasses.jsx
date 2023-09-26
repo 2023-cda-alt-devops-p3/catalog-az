@@ -12,6 +12,19 @@ const DiagClasses = () => {
         <p className='mt-10 text-info'>Dans le langage UML, les diagrammes de classes appartiennent à l'un des six types de diagramme structurel. Les diagrammes de classes sont fondamentaux pour le processus de modélisation des objets et modélisent la structure statique d'un système. Suivant la complexité d'un système, vous pouvez utiliser un seul diagramme de classes pour modéliser un système complet ou bien vous pouvez utiliser différents diagrammes de classes pour modéliser les composants d'un système.
           Les diagrammes de classes sont les plans de votre système ou sous-système. Vous pouvez utiliser des diagrammes de classes pour modéliser les objets qui constituent le système, pour afficher les relations entre les objets et pour décrire ce que ces objets font et les services qu'ils fournissent.
         </p>
+        <br />
+        <br />
+        <p className='mt-50 text-info'>
+          Les trois étape pour réaliser un diagramme de classes :<br /><br />
+        Étape 1 : Identifier les noms de classe<br />
+          La première étape consiste à identifier les principaux objets du système.<br /><br />
+
+          Étape 2 : Distinguer les relations<br />
+          L’étape suivante consiste à déterminer comment chacune des classes ou chacun des objets sont liés les uns aux autres. Recherchez les points communs et les abstractions entre eux ; cela vous aidera à les regrouper lorsque vous ferez le diagramme de classe.
+          <br /><br />
+          Étape 3 : Créer la structure<br />
+          Tout d’abord, ajoutez les noms des classes et reliez-les avec les connecteurs appropriés. Vous pouvez ajouter des attributs et des fonctions/méthodes/opérations plus tard.
+        </p>
       </div>
      
     </div>

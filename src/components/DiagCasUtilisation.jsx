@@ -8,7 +8,7 @@ const DiagCasUtilisation = () => {
         <h1 className="text-center mt-10" >Diagramme de cas d'utilisation</h1>
         <div className='mt-50 desktop'>
           <img  className="img-diag"src={exempleDCU} alt="exemple_Diag_Activite" />
-          <p className='mt-10 text-info'>Les diagrammes de cas d'utilisation modélisent le comportement d'un système et permettent de capturer les exigences du système. Les diagrammes de cas d'utilisation décrivent les fonctions générales et la portée d'un système.</p>
+          <p className='mt-50 text-info'>Les diagrammes de cas d'utilisation modélisent le comportement d'un système et permettent de capturer les exigences du système. Les diagrammes de cas d'utilisation décrivent les fonctions générales et la portée d'un système.</p>
           <p className='mt-10 text-info'>Le diagramme de cas d'utilisation est un diagramme UML utilisé pour donner une vision globale du comportement fonctionnel d'un systeme logiciel. Un cas d'utilisation represente une unité discrete d'interaction entre un utilisateur (Human ou Machine) et un system. Il est une entité significative de travail
             Dans un diagramme de cas d'utilisation il existe des acteurs (actors) qui interagissent avec des cas d'utilisation (use case) UC.
             Les use case permettent de structurer les besoins des utilisateurs et les objectifs du systeme.
@@ -31,7 +31,7 @@ const DiagCasUtilisation = () => {
               Les rubriques suivantes décrivent les éléments de modèle dans les diagrammes de cas d'utilisation :
               <br /><br />
               Cas d'utilisation<br /><br />
-              Un cas d'utilisation décrit une fonction qu'un système exécute pour atteindre l'objectif de l'utilisateur. Un cas d'utilisation doit renvoyer un résultat observable qui est utile pour l'utilisateur du système.
+              Un cas d'utilisation décrit une fonction qu'un système exécute pour atteindre l'objectif de l'utilisateur. Un cas d'utilisation doit renvoyer un résultat observable qui est utile pour l'utilisateur du système.<br /><br />
               Acteurs<br /><br />
               Un acteur représente un rôle d'un utilisateur qui interagit avec le système que vous modélisez. L'utilisateur peut être un utilisateur humain, une organisation, une machine ou un autre système externe.
               Sous-systèmes<br /><br />
