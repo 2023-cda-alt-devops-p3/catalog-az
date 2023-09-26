@@ -15,7 +15,30 @@ const DiagCasUtilisation = () => {
             Une fois identifié et structuré ces besoins : <br />
             - Definissent le contour du systeme a modiliser. <br />
             - Permettent d'identifier les fonctionalités principales ou critiques du systeme.
-</p>
+          </p>
+          <p className='mt-50 text-info'>
+              En langage UML, les diagrammes de cas d'utilisation modélisent le comportement d'un système et permettent de capturer les exigences du système. <br />
+              Les diagrammes de cas d'utilisation décrivent les fonctions générales et la portée d'un système. Ces diagrammes identifient également les interactions entre le système et ses acteurs. Les cas d'utilisation et les acteurs dans les diagrammes de cas d'utilisation décrivent ce que le système fait et comment les acteurs l'utilisent, mais ne montrent pas comment le système fonctionne en interne.
+              <br /><br />
+              Les diagrammes de cas d'utilisation illustrent et définissent le contexte et les exigences d'un système entier, ou des parties essentielles d'un système. Vous pouvez modéliser un système complexe avec un seul diagramme de cas d'utilisation, ou créer de nombreux diagrammes de cas d'utilisation pour modéliser les composants du système. Vous développerez des diagrammes de cas d'utilisation essentiellement dans les premières phases d'un projet et vous vous y référerez tout au long du processus de développement.
+              <br /><br />
+              Les diagrammes de cas d'utilisation sont utiles dans les situations suivantes :
+              <br /><br />
+              Avant de commencer un projet, vous pouvez créer des diagrammes de cas d'utilisation pour modéliser une entreprise, afin que tous les participants au projet visualisent bien les travailleurs, clients et activités de l'entreprise.
+              Lors du recueil des exigences, vous pouvez créer des diagrammes de cas d'utilisation pour capturer les exigences du système et pour présenter aux autres ce que le système doit faire.
+              Lors des phases d'analyse et de conception, vous pouvez utiliser les cas d'utilisation et les acteurs de vos diagrammes de cas d'utilisation pour identifier les classes nécessaires.
+              Lors de la phase de test, vous pouvez utiliser les diagrammes de cas d'utilisation pour identifier les tests à réaliser pour le système.
+              Les rubriques suivantes décrivent les éléments de modèle dans les diagrammes de cas d'utilisation :
+              <br /><br />
+              Cas d'utilisation<br /><br />
+              Un cas d'utilisation décrit une fonction qu'un système exécute pour atteindre l'objectif de l'utilisateur. Un cas d'utilisation doit renvoyer un résultat observable qui est utile pour l'utilisateur du système.
+              Acteurs<br /><br />
+              Un acteur représente un rôle d'un utilisateur qui interagit avec le système que vous modélisez. L'utilisateur peut être un utilisateur humain, une organisation, une machine ou un autre système externe.
+              Sous-systèmes<br /><br />
+              Dans les modèles UML, les sous-systèmes sont un type de composant stéréotypé représentant des unités comportementales indépendantes dans un système. Les sous-systèmes sont utilisés dans les diagrammes de classes, de composants et de cas d'utilisation pour représenter des composants de grande taille dans le système que vous modélisez.
+              Relations dans les diagrammes de cas d'utilisation
+              En langage UML, une relation est une connexion entre des éléments de modèle. Une relation UML est un type d'élément de modèle qui ajoute une sémantique à un modèle en définissant la structure et le comportement entre les éléments de modèle
+              </p>
         </div>
        
       </div>

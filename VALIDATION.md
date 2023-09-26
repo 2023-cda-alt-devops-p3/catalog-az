@@ -38,4 +38,4 @@
 
         ## UI/UX
                 - Features d'animations, transitions, barre de navigation => vérif du site
-                - Design cohérent (couleur, forme, polices
+                - Design cohérent (couleur, forme, polices)
