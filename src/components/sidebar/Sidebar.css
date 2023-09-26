@@ -1,0 +1,106 @@
+/* Sidebar.css */
+.hidden{
+    display: none;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Start with the sidebar hidden */
+    padding: 20px;
+    transition: left 0.3s;
+    z-index: 1000;
+  }
+  
+  .sidebar.open {
+    left: 0; /* Show the sidebar */
+  }
+  
+  .sidebar.closed {
+    left: -250px; /* Hide the sidebar */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the menu links */
+  .sidebar a {
+    text-decoration: none;
+    color: #2196F3; /* Blue color for links */
+    transition: color 0.2s; /* Add a smooth color transition */
+  }
+  
+  .sidebar a:hover {
+    color: #fff; /* White color on hover */
+    animation: scaleLink 0.2s ease-in-out;
+  }
+  
+  /* Define the animation */
+  @keyframes scaleLink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .black{
+    color: black;
+  }
+  .toggle-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .toggle-button.open {
+    right: -35px; /* Move the open button out of view when sidebar is open */
+  }
+  
+  .toggle-button.close {
+    right: 10px; /* Show the close button when sidebar is open */
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .menu li:hover {
+    background-color: #444;
+    transform: scale(1.1); /* Add a hover effect to scale the link */
+  }
+  
+ 
