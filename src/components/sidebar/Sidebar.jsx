@@ -22,7 +22,7 @@ const Sidebar = () => {
       >
         {isOpen ? 'Close Sidebar' : ''}
       </button>
-      <ul>
+      <ul className='mt-50'>
       <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
                         <li><NavLink to={"/DC"} className='link' >Diagramme de classe</NavLink></li>
                         <li><NavLink to={"/DE"} className='link'>Diagramme d'état</NavLink></li>

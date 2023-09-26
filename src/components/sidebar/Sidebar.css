@@ -83,3 +83,24 @@
     text-decoration: none;
     color: white;
   }
+
+
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .menu li:hover {
+    background-color: #444;
+    transform: scale(1.1); /* Add a hover effect to scale the link */
+  }
+  
+ 
