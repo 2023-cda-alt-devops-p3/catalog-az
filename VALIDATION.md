@@ -18,12 +18,12 @@
                 - HTML sémantique
 
         ## Performance
-                - Bon résultat sur PageSpeed Insights
+            ✅  - Bon résultat sur PageSpeed Insights
                 - Optimisation images (surtout mobile)
                 - Limiter le nombre de requêtes
 
         ## Accessibilité
-                - Accessibilité : title, aria-label, alt
+            ✅  - Accessibilité : title, aria-label, alt
                 - Optimisation des images : poids et formats adaptés
                 - Fournir un site web avec une bonne expérience utilisateur
                 - Texte lisible : interlinéage suffisant, taille des polices proportionnelles, contraste des couleurs optimale, ...
