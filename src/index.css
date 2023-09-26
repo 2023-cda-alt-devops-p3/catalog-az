@@ -109,8 +109,6 @@ body {
   align-items: center;
   border-radius: 0.5em;
   box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.34);
-  -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.34);
-  -moz-box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.34);
 }
 
 .model-picture {
@@ -122,8 +120,6 @@ body {
 .cards:hover > .model-picture {
   transform: translateY(-10%);
   box-shadow: 0rem 1.2rem 1rem 0rem rgba(0, 0, 0, 0.34);
-  -webkit-box-shadow: 0rem 1.2rem 1rem 0rem rgba(0, 0, 0, 0.34);
-  -moz-box-shadow: 0rem 1.2rem 1rem 0rem rgba(0, 0, 0, 0.34);
 }
 
 .type {
@@ -134,15 +130,11 @@ body {
   transform: translateY(-50%);
   color: var(--color-2);
   box-shadow: 0rem 0.6rem 0.5rem 0rem rgba(0, 0, 0, 0.34);
-  -webkit-box-shadow: 0rem 0.6rem 0.5rem 0rem rgba(0, 0, 0, 0.34);
-  -moz-box-shadow: 0rem 0.6rem 0.5rem 0rem rgba(0, 0, 0, 0.34);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .cards:hover > .type {
   box-shadow: 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.34);
-  -webkit-box-shadow: 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.34);
-  -moz-box-shadow: 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.34);
   transform: translateY(-40%);
 }
 
