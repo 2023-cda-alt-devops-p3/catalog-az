@@ -33,9 +33,9 @@
                 - Eviter les répétitions en utilisant des fonctions => check du code source
 
         ## Contenu
-                - Contenu vérifié : informations croisées, résumé de plusieurs sources, ...
+            ✅  - Contenu vérifié : informations croisées, résumé de plusieurs sources, ...
                 - Détail des étapes pour chaque diagramme
 
         ## UI/UX
-                - Features d'animations, transitions, barre de navigation => vérif du site
+            ✅  - Features d'animations, transitions, barre de navigation => vérif du site
                 - Design cohérent (couleur, forme, polices)

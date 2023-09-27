@@ -2,7 +2,7 @@ import React from 'react';
 import '../sidebar/Sidebar.css'
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { BsArrowRight } from 'react-icons/bs'
+import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 
 const Sidebar = () => {
 
@@ -20,7 +20,7 @@ const Sidebar = () => {
         className={`toggle-button ${isOpen ? 'close' : 'open'}`}
         onClick={toggleSidebar}
       >
-        {isOpen ? 'Close Sidebar' : ''}
+        {isOpen ? <BsArrowLeft size={30}/> : ''}
       </button>
       <ul className='mt-50'>
       <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
@@ -32,7 +32,6 @@ const Sidebar = () => {
                         <li><NavLink to={"MCD"} className='link' >MCD</NavLink></li>
                         <li><NavLink to={"MLD"} className='link' >MLD</NavLink></li>
                         <li><NavLink to={"MPD"} className='link' >MPD</NavLink></li>
-        {/* Add more sidebar items as needed */}
       </ul>
     </div>
     </div>

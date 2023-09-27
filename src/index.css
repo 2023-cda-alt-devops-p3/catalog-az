@@ -49,6 +49,7 @@
 
 .basket-button {
   font-family: system-ui, sans-serif;
+  background-color: transparent;
   font-size: 1.25rem;
   cursor: pointer;
   padding: .1em .6em;
@@ -153,6 +154,7 @@ body {
   color: var(--color-3);
   font-weight: 500;
   font-size: 0.9rem;
+  height: 200px;
 }
 
 .shopping-container {
@@ -199,4 +201,5 @@ body {
     margin: auto;
     width: 80%;
   }
+
 }
