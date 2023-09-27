@@ -36,7 +36,7 @@ const Sidebar = () => {
       </button>
       <ul className='mt-50'>
         <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
-        <li onClick={toggleDropdown}> DIAGRAMME UML</li>
+        <li className='h4 pointer' onClick={toggleDropdown}> DIAGRAMME UML</li>
         {dropdownOpen && (
             <ul>
                 <li><NavLink to={"/DC"} className='link' >Diagramme de classe</NavLink></li>
@@ -48,7 +48,7 @@ const Sidebar = () => {
             </ul>
         )}
       
-        <li onClick={toggleDropdownTwo}>MERISE</li>
+        <li className='h4 pointer' onClick={toggleDropdownTwo}>MERISE</li>
         {dropdownTwoOpen && (
             <ul>
                 <li><NavLink to={"MCD"} className='link' >MCD</NavLink></li>
