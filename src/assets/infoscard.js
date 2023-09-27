@@ -8,6 +8,7 @@ import exempleDCU from "./exemple-DCU.png" ;
 import exempleDE from "./exemple-DE.png" ;
 import exempleDS from "./exemple-DS.jpeg" ;
 import exempleMCT from "../assets/exemple-MCT.jpeg";
+import exempleMLD from "../assets/exemple-MLD.png"
 
 
 export const CardInfos = 
@@ -54,11 +55,11 @@ export const CardInfos =
     },
     {
         id: 6,
-        title: "MOD",
-        url: "/MOD",
-        img: exempleMOD,
+        title: "MLD",
+        url: "/MLD",
+        img: exempleMLD,
         spec: "MERISE",
-        cardtxt: "Représentation des données mémorisables sans tenir compte des contraintes organisationnelles ou techniques, ni des traitements. Modèle organisationnel des données (MOD) : Prise en compte des contraintes organisationnelles et de certaines contraintes techniques."
+        cardtxt: " Un Modèle Logique des Données (MLD) est une représentation textuelle de la base de données à informatiser consécutive au travail d'analyse MCD et MPD. À noter que le MLD prend parfois un R et devient MLDR ou MLD-R : le R signifiant simplement Relationnel."
     },
     {
         id: 7,
@@ -91,5 +92,13 @@ export const CardInfos =
         img: exempleMCT,
         spec: "MERISE",
         cardtxt: "Le MCT ou Modèle Conceptuel des Traitements : il présente graphiquement, sous la forme de schémas avec des éléments bien définis, les traitements qui doivent être informatisés. Il permet d’identifier le fonctionnement du système d’information."
+    },
+    {
+        id: 11,
+        title: "MOD",
+        url: "/MOD",
+        img: exempleMOD,
+        spec: "MERISE",
+        cardtxt:"Représentation des données mémorisables sans tenir compte des contraintes organisationnelles ou techniques, ni des traitements. Modèle organisationnel des données (MOD) : Prise en compte des contraintes organisationnelles et de certaines contraintes techniques."
     }
 ]

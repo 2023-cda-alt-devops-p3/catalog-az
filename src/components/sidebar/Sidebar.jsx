@@ -55,6 +55,7 @@ const Sidebar = () => {
                 <li><NavLink to={"MLD"} className='link' >MLD</NavLink></li>
                 <li><NavLink to={"MPD"} className='link' >MPD</NavLink></li>
                 <li><NavLink to={"MCT"} className='link' >MCT</NavLink></li>
+                <li><NavLink to={"MOD"} className='link' >MOD</NavLink></li>
             </ul>
          )}
                      
