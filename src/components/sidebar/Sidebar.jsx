@@ -12,6 +12,18 @@ const Sidebar = () => {
       setIsOpen(!isOpen);
     };
 
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+
+    const toggleDropdown = () => {
+      setDropdownOpen(!dropdownOpen);
+    };
+
+    const [dropdownTwoOpen, setDropdownTwoOpen] = useState(false);
+
+    const toggleDropdownTwo = () => {
+      setDropdownTwoOpen(!dropdownTwoOpen);
+    };
+
   return (
     <div>
      <BsArrowRight  size={30} className={`${isOpen ? 'hidden' : 'on'}`} onClick={toggleSidebar}/>
@@ -23,16 +35,32 @@ const Sidebar = () => {
         {isOpen ? <BsArrowLeft size={30}/> : ''}
       </button>
       <ul className='mt-50'>
-      <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
-                        <li><NavLink to={"/DC"} className='link' >Diagramme de classe</NavLink></li>
-                        <li><NavLink to={"/DE"} className='link'>Diagramme d'état</NavLink></li>
-                        <li><NavLink to={"DComp"} className='link' >Diagramme de composants</NavLink></li>
-                        <li><NavLink to={"DA"} className='link' >Diagramme d'activité</NavLink></li>
-                        <li><NavLink to={"DS"} className='link' >Diagramme de séquence</NavLink></li>
-                        <li><NavLink to={"MCD"} className='link' >MCD</NavLink></li>
-                        <li><NavLink to={"MLD"} className='link' >MLD</NavLink></li>
-                        <li><NavLink to={"MPD"} className='link' >MPD</NavLink></li>
+        <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
+        <li className='h4 pointer' onClick={toggleDropdown}> DIAGRAMME UML</li>
+        {dropdownOpen && (
+            <ul>
+                <li><NavLink to={"/DC"} className='link' >Diagramme de classe</NavLink></li>
+                <li><NavLink to={"/DE"} className='link'>Diagramme d'état</NavLink></li>
+                <li><NavLink to={"/DCU"} className='link'>Diagramme de cas d'utilisation</NavLink></li>
+                <li><NavLink to={"DComp"} className='link' >Diagramme de composants</NavLink></li>
+                <li><NavLink to={"DA"} className='link' >Diagramme d'activité</NavLink></li>
+                <li><NavLink to={"DS"} className='link' >Diagramme de séquence</NavLink></li>
+            </ul>
+        )}
+      
+        <li className='h4 pointer' onClick={toggleDropdownTwo}>MERISE</li>
+        {dropdownTwoOpen && (
+            <ul>
+                <li><NavLink to={"MCD"} className='link' >MCD</NavLink></li>
+                <li><NavLink to={"MLD"} className='link' >MLD</NavLink></li>
+                <li><NavLink to={"MPD"} className='link' >MPD</NavLink></li>
+                <li><NavLink to={"MCT"} className='link' >MCT</NavLink></li>
+                <li><NavLink to={"MOD"} className='link' >MOD</NavLink></li>
+            </ul>
+         )}
+                     
       </ul>
+       
     </div>
     </div>
 

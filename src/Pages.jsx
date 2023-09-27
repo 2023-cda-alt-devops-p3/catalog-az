@@ -10,6 +10,8 @@ import DiagSequence from "./components/DiagSequence";
 import Mpd from './components/Mpd';
 import Mld from './components/Mld';
 import Overview from './components/Overview';
+import Mct from './components/Mct';
+import Mod from './components/Mod';
 
 
 
@@ -27,6 +29,8 @@ const Pages = () => {
         <Route path='/DS' element={<DiagSequence />}  />
         <Route path='/MLD' element={<Mld />}  />
         <Route path='/MPD' element={<Mpd />}  />
+        <Route path='/MOD' element={<Mod />}  />
+        <Route path='/MCT' element={<Mct />}  />
         <Route path='/overview' element={<Overview />}  />
     </Routes>
   )

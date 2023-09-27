@@ -141,6 +141,7 @@ body {
 
 .card-title {
   font-size: 1.5rem;
+  height: 70px;
   font-weight: 500;
   margin-bottom: var(--bottom-margin);
 }
@@ -174,6 +175,9 @@ body {
     max-height: 140px;
 }
 
+.pointer{
+  cursor: pointer;
+}
 
 /* RESPONSIVE */
 
