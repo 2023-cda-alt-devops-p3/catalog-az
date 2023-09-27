@@ -36,6 +36,7 @@
   /* Style the menu links */
   .sidebar a {
     text-decoration: none;
+    font-size: 18px;
     color: #2196F3; /* Blue color for links */
     transition: color 0.2s; /* Add a smooth color transition */
   }
@@ -72,16 +73,17 @@
   }
   
   .toggle-button.open {
-    right: -35px; /* Move the open button out of view when sidebar is open */
+    right: -35px;
   }
   
   .toggle-button.close {
-    right: 10px; /* Show the close button when sidebar is open */
+    right: 10px; 
   }
   
   .link {
     text-decoration: none;
     color: white;
+    font-size: 18px;
   }
 
 
@@ -102,5 +104,10 @@
     background-color: #444;
     transform: scale(1.1); /* Add a hover effect to scale the link */
   }
-  
+  @media only screen and (min-width: 640px){
+    .sidebar a{
+        font-size: 22px;
+    }
+
+  }
  
