@@ -7,6 +7,7 @@ import exempleDC from "./exemple-DC.jpeg" ;
 import exempleDCU from "./exemple-DCU.png" ;
 import exempleDE from "./exemple-DE.png" ;
 import exempleDS from "./exemple-DS.jpeg" ;
+import exempleMCT from "../assets/exemple-MCT.jpeg";
 
 
 export const CardInfos = 
@@ -82,5 +83,13 @@ export const CardInfos =
         img: exempleMPD,
         spec: "MERISE",
         cardtxt: "Dans la méthode Merise, le modèle physique des données (MPD) consiste à implanter une base de données dans un SGBDR. Le langage utilisé pour ce type d'opération est le SQL."
+    },
+    {
+        id: 10,
+        title: "MCT",
+        url: "/MCT",
+        img: exempleMCT,
+        spec: "MERISE",
+        cardtxt: "Le MCT ou Modèle Conceptuel des Traitements : il présente graphiquement, sous la forme de schémas avec des éléments bien définis, les traitements qui doivent être informatisés. Il permet d’identifier le fonctionnement du système d’information."
     }
 ]

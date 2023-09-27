@@ -32,6 +32,7 @@ const Sidebar = () => {
                         <li><NavLink to={"MCD"} className='link' >MCD</NavLink></li>
                         <li><NavLink to={"MLD"} className='link' >MLD</NavLink></li>
                         <li><NavLink to={"MPD"} className='link' >MPD</NavLink></li>
+                        <li><NavLink to={"MCT"} className='link' >MCT</NavLink></li>
       </ul>
     </div>
     </div>
