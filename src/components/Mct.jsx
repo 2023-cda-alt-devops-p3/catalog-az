@@ -58,8 +58,9 @@ const Mct = () => {
             mais elle a un réel intérêt lorsque les processus de l’entreprise
             sont nombreux, complexes et stables.
           </p>
+          <h4 className="mt-50">Voici cinq étapes pour créer un MCT :</h4>
           <p className="text-info mt-50">
-            <h4>Voici cinq étapes pour créer un MCT :</h4>
+            
             <br />
             <br />1 : Déterminer les traitements : Commencez par identifier les
             différents traitements ou opérations que votre système ou

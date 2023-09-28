@@ -1,12 +1,12 @@
 import React from 'react'
 import Sidebar from './components/sidebar/Sidebar'
-import ButtonTopi from './components/ButtonTopi'
+import ButtonTop from './components/ButtonTop'
 
 const Acceuil = () => {
   return (
     <div>
       <Sidebar />
-      <ButtonTopi />
+      <ButtonTop />
     </div>
   )
 }

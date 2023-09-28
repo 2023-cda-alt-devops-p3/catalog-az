@@ -37,8 +37,9 @@ const Mod = () => {
             il mettait en évidence les relations existantes entre les colonnes
             d’une table.
           </p>
+          <h4 className="mt-50">Voici les étapes pour créer une MLD Merise en 5 étapes simplifiées :</h4>
           <p className="mt-50 text-info">
-            <h4>Voici les étapes pour créer une MLD Merise en 5 étapes simplifiées :</h4>
+            
             <br />
             <br />
             1 : Affiner les entités et les attributs :<br />
