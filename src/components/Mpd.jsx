@@ -51,8 +51,9 @@ const Mpd = () => {
                 reliées à une « clé primaire » dans une autre table.
               </li>
             </ul>
+            <h4 className="mt-50 titre">Voici les étapes pour créer un MPD Merise en 5 étapes simplifiées :</h4>
             <p className="mt-50 text-infp">
-              <h4>Voici les étapes pour créer un MPD Merise en 5 étapes simplifiées :</h4>
+              
               <br />
               <br />
               1 : Sélectionnez un système de gestion de base de données :<br />

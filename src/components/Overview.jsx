@@ -10,7 +10,7 @@ const Overview = () => {
             CardInfos.map(({id, title, img, url, spec, cardtxt}) => (
                     <div className="cards" key={id}>
                         <img src={img} alt={`image_diagram_${id}`} className="model-picture" />
-                        <h2 className="type">{spec}</h2>
+                        <h2 className={`${spec === 'MERISE' ? 'type' : 'bg-blue'}`}>{spec}</h2>
                         <h1 className="card-title">{title}</h1>
                         <p className="description">{cardtxt}</p>
                         <div className="shopping-container">

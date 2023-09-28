@@ -33,8 +33,9 @@ const DiagEtat = () => {
             ainsi que la façon dont cette machine (ou l'objet) passe d’un état à
             l’autre en réponse à des événements.
           </p>
+          <h4 className="mt-50 titre">Voila 5 etapes pour crée un diagramme d'état :</h4> <br />
           <p className="text-info mt-50">
-            <h4>Voila 5 etapes pour crée un diagramme d'état :</h4> <br />
+            
             <br />
             1 : Identifier les états : Déterminez les conditions ou les phases
             distinctes dans lesquelles votre système ou objet peut se trouver et
