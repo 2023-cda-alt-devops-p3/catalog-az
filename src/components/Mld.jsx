@@ -1,5 +1,5 @@
 import React from "react";
-import exempleMLD from "../assets/exemple-MLD.png";
+import exempleMLD from "../assets/exempleMLD.png";
 
 const Mod = () => {
   return (

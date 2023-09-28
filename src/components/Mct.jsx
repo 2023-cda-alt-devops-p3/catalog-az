@@ -1,5 +1,5 @@
 import React from "react";
-import exempleMCT from "../assets/exemple-MCT.jpeg";
+import exempleMCT from "../assets/exempleMCT.png";
 
 const Mct = () => {
   return (
