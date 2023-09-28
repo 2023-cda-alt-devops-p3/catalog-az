@@ -16,6 +16,16 @@
 .text-center{
     text-align: center;
 }
+.bg-blue{
+  background-color: blue;
+  font-size: 1rem;
+  padding: 1em 2em;
+  border-radius: 2em;
+  transform: translateY(-50%);
+  color: var(--color-2);
+  box-shadow: 0rem 0.6rem 0.5rem 0rem rgba(0, 0, 0, 0.34);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
 .mt-10{
     margin-top: 10px;
 }
