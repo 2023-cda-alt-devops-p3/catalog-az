@@ -44,8 +44,8 @@
 .top-90{
   top: 90%;
 }
-.right-5{
-  right: 5%;
+.right-2{
+  right: 2%;
 }
 .fixed{
   position: fixed;
@@ -83,9 +83,10 @@
 }
 
 .rond{
-  background-color: blue;
+  background-color: #333;
   border-radius: 40%;
   z-index: 1000;
+  color: white
 
 }
 
