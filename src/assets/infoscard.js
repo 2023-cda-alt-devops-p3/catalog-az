@@ -15,7 +15,7 @@ export const CardInfos =
 [
     {
         id: 1,
-        title: "Diagramme d'activités",
+        title: "Diagramme d'activité",
         url: "/DA",
         img: exempleDA,
         spec: "UML",

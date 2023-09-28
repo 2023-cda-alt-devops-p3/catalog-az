@@ -4,15 +4,15 @@ import exempleComp from "../assets/exemple-Comp.png";
 const DiagComposants = () => {
   return (
     <div className="w-80 m-auto">
-      <div className="m-auto mt-10">
+      <div className="m-auto mt-100">
         <h1 className="text-center mt-10">Diagramme de composants</h1>
-        <div className="mt-50 desktop">
+        <div className="mt-10 desktop">
           <img
-            className="img-diag"
+            className="img-diag mt-100"
             src={exempleComp}
             alt="exemple_Diag_Activite"
           />
-          <p className="mt-10 text-info">
+          <p className="mt-10 mt-100 text-info">
             Un diagramme de composants a pour objectif d'illustrer la relation
             entre les différents composants d'un système. Dans le cadre de l'UML
             2.0, le terme « composant » fait référence à un module de classes
@@ -30,7 +30,7 @@ const DiagComposants = () => {
             composants et interfaces qui sont réutilisables et remplaçables.
           </p>
           <p className="text-info mt-50">
-            Comment dessiner un diagramme de composants <br />
+            <h4>Comment dessiner un diagramme de composants :</h4> <br />
             <br />
             Vous pouvez utiliser un diagramme de composants lorsque vous voulez
             représenter votre système en tant que composants et que vous voulez
