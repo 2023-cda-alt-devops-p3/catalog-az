@@ -17,7 +17,10 @@
     transition: left 0.3s;
     z-index: 1000;
   }
-  
+  .position{
+    position: absolute;
+    left: -49%;
+  }
   .sidebar.open {
     left: 0; /* Show the sidebar */
   }
