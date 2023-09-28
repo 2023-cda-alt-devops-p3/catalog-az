@@ -1,7 +1,15 @@
 import React from "react";
 import exempleDS from "../assets/exemple-DS.jpeg";
+import { useEffect } from "react";
 
 const DiagSequence = () => {
+
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
+  
   return (
     <div className="w-80 m-auto">
       <div className="m-auto mt-10">

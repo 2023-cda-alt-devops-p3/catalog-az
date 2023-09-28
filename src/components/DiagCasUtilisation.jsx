@@ -1,7 +1,15 @@
 import React from "react";
 import exempleDCU from "../assets/exemple-DCU.png";
+import { useEffect } from "react";
 
 const DiagCasUtilisation = () => {
+
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
+  
   return (
     <div className="w-80 m-auto">
       <div className="m-auto mt-100">

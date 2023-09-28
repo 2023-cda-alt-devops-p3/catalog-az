@@ -1,7 +1,14 @@
 import React from "react";
 import exempleDE from "../assets/exemple-DE.png";
+import { useEffect } from "react";
 
 const DiagEtat = () => {
+
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   return (
     <div className="w-80 m-auto">
       <div className="m-auto mt-100">
