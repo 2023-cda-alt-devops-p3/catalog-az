@@ -29,6 +29,27 @@
 .flex{
     display: flex;
 }
+.justify-between{
+  justify-content: space-between;
+}
+.item-center {
+  align-items: center;
+}
+.w-40 {
+  width: 100px;
+}
+.px-4 {
+  padding: 10px 0px;
+}
+.top-90{
+  top: 90%;
+}
+.right-2{
+  right: 2%;
+}
+.fixed{
+  position: fixed;
+}
 .grid{
     display: grid;
 }
@@ -61,7 +82,13 @@
   border: none;
 }
 
+.rond{
+  background-color: #333;
+  border-radius: 40%;
+  z-index: 1000;
+  color: white
 
+}
 
 /* IMPORT STYLE CARD */
 
