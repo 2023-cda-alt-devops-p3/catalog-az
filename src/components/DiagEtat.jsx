@@ -33,7 +33,7 @@ const DiagEtat = () => {
             ainsi que la façon dont cette machine (ou l'objet) passe d’un état à
             l’autre en réponse à des événements.
           </p>
-          <h4 className="mt-50">Voila 5 etapes pour crée un diagramme d'état :</h4> <br />
+          <h4 className="mt-50 titre">Voila 5 etapes pour crée un diagramme d'état :</h4> <br />
           <p className="text-info mt-50">
             
             <br />

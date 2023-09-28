@@ -51,7 +51,7 @@ const Mpd = () => {
                 reliées à une « clé primaire » dans une autre table.
               </li>
             </ul>
-            <h4 className="mt-50">Voici les étapes pour créer un MPD Merise en 5 étapes simplifiées :</h4>
+            <h4 className="mt-50 titre">Voici les étapes pour créer un MPD Merise en 5 étapes simplifiées :</h4>
             <p className="mt-50 text-infp">
               
               <br />

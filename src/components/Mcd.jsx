@@ -37,7 +37,7 @@ const Mcd = () => {
             modéliser le discours métier sans anticiper les solutions
             relationnelles de mise en oeuvre.
           </p>
-          <h4 className="mt-50">Voici les étapes pour créer un MCD Merise en 5 étapes simplifiées :</h4>
+          <h4 className="mt-50 titre">Voici les étapes pour créer un MCD Merise en 5 étapes simplifiées :</h4>
           <p className="mt-50 text-info">
             
             <br />

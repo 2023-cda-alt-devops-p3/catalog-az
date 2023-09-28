@@ -41,7 +41,7 @@ const DiagSequence = () => {
             messages entre ces derniers. Le diagramme de séquence représente les
             objets et les messages entre ces objets.
           </p>
-          <h4 className="mt-50">Voila les 5 étapes pour crée un diagramme de sequence :</h4><br />
+          <h4 className="mt-50 titre">Voila les 5 étapes pour crée un diagramme de sequence :</h4><br />
           <p className="mt-50 text-info">
             
             <br />

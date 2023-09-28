@@ -58,7 +58,7 @@ const Mct = () => {
             mais elle a un réel intérêt lorsque les processus de l’entreprise
             sont nombreux, complexes et stables.
           </p>
-          <h4 className="mt-50">Voici cinq étapes pour créer un MCT :</h4>
+          <h4 className="mt-50 titre">Voici cinq étapes pour créer un MCT :</h4>
           <p className="text-info mt-50">
             
             <br />

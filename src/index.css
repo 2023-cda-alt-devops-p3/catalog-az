@@ -26,6 +26,9 @@
 .p-10{
   padding: 10px;
 }
+.titre {
+  font-size: 20px;
+}
 .flex{
     display: flex;
 }
@@ -241,6 +244,9 @@ body {
   }
   .icon-size {
    width: 100%;
+  }
+  .titre {
+    font-size: 22px;
   }
 
 }

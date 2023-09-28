@@ -37,7 +37,7 @@ const DiagComposants = () => {
             base de composants, dans lequel un système logiciel est divisé en
             composants et interfaces qui sont réutilisables et remplaçables.
           </p>
-          <h4 className="mt-50">Comment dessiner un diagramme de composants :</h4>
+          <h4 className="mt-50 titre">Comment dessiner un diagramme de composants :</h4>
           <p className="text-info mt-50">
              <br />
             <br />

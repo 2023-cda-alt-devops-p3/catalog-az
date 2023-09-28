@@ -43,7 +43,7 @@ const DiagClasses = () => {
           </p>
           <br />
           <br />
-          <h4 className="mt-50">Les trois étape pour réaliser un diagramme de classes :</h4>
+          <h4 className="mt-50 titre">Les trois étape pour réaliser un diagramme de classes :</h4>
           <p className="mt-50 text-info">
            <br />
             <br />
