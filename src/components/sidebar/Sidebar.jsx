@@ -1,10 +1,11 @@
-import React from 'react';
 import '../sidebar/Sidebar.css'
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 
 const Sidebar = () => {
+
+ 
 
     const [isOpen, setIsOpen] = useState(true);
 
@@ -26,7 +27,7 @@ const Sidebar = () => {
 
   return (
     <div>
-     <BsArrowRight  size={`${isOpen ? "" : 70}`} className={`${isOpen ? 'hidden' : 'on'}`} onClick={toggleSidebar}/>
+     <BsArrowRight  size={`${isOpen ? "" : 70}`} id="open-icon"className={`${isOpen ? 'hidden' : 'on'}`} onClick={toggleSidebar}/>
     <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
       <button
         className={`toggle-button ${isOpen ? 'close' : 'open'}`}

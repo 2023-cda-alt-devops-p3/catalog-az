@@ -8,9 +8,7 @@
                 - Mise en place un Github Action (automatisation de tests intégration, vulnérabilité, ...) => Check sur Github
 
         ## Sécurité
-                - Prévenir les vulnérabilités principales (cross site, injection sql, protection des tokens, validation des données) => GoogleSearchConsole, Sucuri
-                - Respect de la protection des données (RGPD, encapsulation)
-                - Utilisation des chemins absolus
+            ✅  - Utilisation des chemins absolus
 
         ## SEO
             ✅  - Mise en place de la stratégie SEO : données structurées, ...

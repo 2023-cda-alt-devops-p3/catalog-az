@@ -2,7 +2,9 @@
 .hidden{
     display: none;
 }
-
+.fixed{
+  position: fixed;
+}
 .sidebar {
     width: 250px;
     height: 100%;
