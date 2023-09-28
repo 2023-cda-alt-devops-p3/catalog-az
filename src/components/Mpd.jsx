@@ -4,15 +4,15 @@ import exempleMPD from "../assets/exemple-MPD.jpeg";
 const Mpd = () => {
   return (
     <div className="w-80 m-auto">
-      <div className="m-auto mt-10">
+      <div className="m-auto mt-100">
         <h1 className="text-center mt-10">Modèle physique des données</h1>
         <div className="mt-50 desktop">
           <img
-            className="img-diag"
+            className="img-diag mt-100"
             src={exempleMPD}
             alt="exemple_Diag_Activite"
           />
-          <div className="mt-10 text-info">
+          <div className="mt-10 text-info mt-100">
             <p>
               Dans la méthode Merise, le modèle physique des données (MPD)
               consiste à implanter une base de données dans un SGBDR. Le langage
@@ -44,8 +44,8 @@ const Mpd = () => {
               </li>
             </ul>
             <p className="mt-50 text-infp">
-              Voici les étapes pour créer un MPD Merise en 5 étapes simplifiées
-              :<br />
+              <h4>Voici les étapes pour créer un MPD Merise en 5 étapes simplifiées :</h4>
+              <br />
               <br />
               1 : Sélectionnez un système de gestion de base de données :<br />
               - Choisissez un SGBD spécifique (par exemple, MySQL, Oracle, SQL

@@ -4,15 +4,15 @@ import exempleMCT from "../assets/exemple-MCT.jpeg";
 const Mct = () => {
   return (
     <div className="w-80 m-auto">
-      <div className="m-auto mt-10">
+      <div className="m-auto mt-100">
         <h1 className="text-center mt-10">Modèle conceptuel de traitement</h1>
         <div className="mt-50 desktop">
           <img
-            className="img-diag"
+            className="img-diag mt-100"
             src={exempleMCT}
             alt="exemple_Diag_Activite"
           />
-          <p className="mt-10 text-info">
+          <p className="mt-10 text-info mt-100">
             Dans la méthodologie Merise, il y a tout un pan de l’analyse qui
             porte sur les traitements. Le MCT ou Modèle Conceptuel des
             Traitements en fait partie. Il présente graphiquement, sous la forme
@@ -51,7 +51,7 @@ const Mct = () => {
             sont nombreux, complexes et stables.
           </p>
           <p className="text-info mt-50">
-            Voici cinq étapes pour créer un MCT :
+            <h4>Voici cinq étapes pour créer un MCT :</h4>
             <br />
             <br />1 : Déterminer les traitements : Commencez par identifier les
             différents traitements ou opérations que votre système ou
