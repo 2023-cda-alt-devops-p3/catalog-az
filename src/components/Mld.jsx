@@ -1,18 +1,18 @@
 import React from "react";
-import exempleMLD from "../assets/exemple-MLD.png";
+import exempleMLD from "../assets/exempleMLD.png";
 
 const Mod = () => {
   return (
     <div className="w-80 m-auto">
-      <div className="m-auto mt-10">
+      <div className="m-auto mt-100">
         <h1 className="text-center mt-10">Modèle logiques des données</h1>
         <div className="mt-50 desktop">
           <img
-            className="img-diag"
+            className="img-diag mt-100"
             src={exempleMLD}
             alt="exemple_Diag_Activite"
           />
-          <p className="mt-10 text-info">
+          <p className="mt-10 text-info mt-100">
             Un Modèle Logique des Données (MLD) est une représentation textuelle
             de la base de données à informatiser consécutive au travail
             d'analyse MCD et MPD. À noter que le MLD prend parfois un R et
@@ -30,7 +30,7 @@ const Mod = () => {
             d’une table.
           </p>
           <p className="mt-50 text-info">
-            Voici les étapes pour créer une MLD Merise en 5 étapes simplifiées :
+            <h4>Voici les étapes pour créer une MLD Merise en 5 étapes simplifiées :</h4>
             <br />
             <br />
             1 : Affiner les entités et les attributs :<br />

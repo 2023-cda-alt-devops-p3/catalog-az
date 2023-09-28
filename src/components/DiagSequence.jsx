@@ -5,14 +5,14 @@ const DiagSequence = () => {
   return (
     <div className="w-80 m-auto">
       <div className="m-auto mt-10">
-        <h1 className="text-center mt-10">Diagramme de séquence</h1>
+        <h1 className="text-center mt-100">Diagramme de séquence</h1>
         <div className="mt-50 desktop">
           <img
-            className="img-diag"
+            className="img-diag mt-100"
             src={exempleDS}
             alt="exemple_Diag_Activite"
           />
-          <p className="mt-10 text-info">
+          <p className="mt-10  mt-100 text-info">
             Les diagrammes de séquence permettent d'identifier les classes
             requises par un système et le comportement des objets de classes au
             cours des interactions. Vous pouvez détailler les diagrammes de
@@ -34,7 +34,7 @@ const DiagSequence = () => {
             objets et les messages entre ces objets.
           </p>
           <p className="mt-50 text-info">
-            Voila les 5 étapes pour crée un diagramme de sequence : <br />
+            <h4>Voila les 5 étapes pour crée un diagramme de sequence :</h4><br />
             <br />
             1 : Identifier les acteurs et les objets :<br />
             Déterminer les acteurs (entités ou composants) et les objets

@@ -4,15 +4,15 @@ import exempleDE from "../assets/exemple-DE.png";
 const DiagEtat = () => {
   return (
     <div className="w-80 m-auto">
-      <div className="m-auto mt-10">
+      <div className="m-auto mt-100">
         <h1 className="text-center mt-10">Diagramme d'état</h1>
-        <div className="mt-50 desktop">
+        <div className="mt-100 desktop">
           <img
-            className="img-diag"
+            className="img-diag mt-100"
             src={exempleDE}
             alt="exemple_Diag_Activite"
           />
-          <p className="mt-10 text-info">
+          <p className="mt-100 text-info">
             Représenter des objets liés à un événement dans un système réactif.
             Illustrer des cas d'utilisation dans un contexte d'entreprise.
             Décrire comment un objet change d'état au cours de son existence.
@@ -27,7 +27,7 @@ const DiagEtat = () => {
             l’autre en réponse à des événements.
           </p>
           <p className="text-info mt-50">
-            Voila 5 etapes pour crée un diagramme d'état : <br />
+            <h4>Voila 5 etapes pour crée un diagramme d'état :</h4> <br />
             <br />
             1 : Identifier les états : Déterminez les conditions ou les phases
             distinctes dans lesquelles votre système ou objet peut se trouver et

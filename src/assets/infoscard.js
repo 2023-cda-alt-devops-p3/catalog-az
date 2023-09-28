@@ -7,15 +7,15 @@ import exempleDC from "./exemple-DC.jpeg" ;
 import exempleDCU from "./exemple-DCU.png" ;
 import exempleDE from "./exemple-DE.png" ;
 import exempleDS from "./exemple-DS.jpeg" ;
-import exempleMCT from "../assets/exemple-MCT.jpeg";
-import exempleMLD from "../assets/exemple-MLD.png"
+import exempleMCT from "../assets/exempleMCT.png";
+import exempleMLD from "../assets/exempleMLD.png"
 
 
 export const CardInfos = 
 [
     {
         id: 1,
-        title: "Diagramme d'activités",
+        title: "Diagramme d'activité",
         url: "/DA",
         img: exempleDA,
         spec: "UML",

@@ -22,6 +22,10 @@
 .mt-50{
     margin-top: 50px;
 }
+
+.p-10{
+  padding: 10px;
+}
 .flex{
     display: flex;
 }
@@ -204,6 +208,12 @@ body {
   .desktop{
     margin: auto;
     width: 80%;
+  }
+  .mt-100{
+    margin-top: 100px;
+  }
+  .icon-size {
+   width: 100%;
   }
 
 }
