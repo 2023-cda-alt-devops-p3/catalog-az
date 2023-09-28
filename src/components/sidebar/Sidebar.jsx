@@ -26,7 +26,7 @@ const Sidebar = () => {
 
   return (
     <div>
-     <BsArrowRight  size={30} className={`${isOpen ? 'hidden' : 'on'}`} onClick={toggleSidebar}/>
+     <BsArrowRight  size={`${isOpen ? "" : 70}`} className={`${isOpen ? 'hidden' : 'on'}`} onClick={toggleSidebar}/>
     <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
       <button
         className={`toggle-button ${isOpen ? 'close' : 'open'}`}
