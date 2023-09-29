@@ -30,6 +30,14 @@ export const CardInfos =
         cardtxt: "Les diagrammes de cas d'utilisation modélisent le comportement d'un système et permettent de capturer les exigences du système. Les diagrammes de cas d'utilisation décrivent les fonctions générales et la portée d'un système."
     },
     {
+        id: 9,
+        title: "MPD",
+        url: "/MPD",
+        img: exempleMPD,
+        spec: "MERISE",
+        cardtxt: "Dans la méthode Merise, le modèle physique des données (MPD) consiste à implanter une base de données dans un SGBDR. Le langage utilisé pour ce type d'opération est le SQL."
+    },
+    {
         id: 3,
         title: "Diagramme de classe",
         url: "/DC",
@@ -44,6 +52,14 @@ export const CardInfos =
         img: exempleDE,
         spec: "UML",
         cardtxt: "Représenter des objets liés à un événement dans un système réactif. Illustrer des cas d'utilisation dans un contexte d'entreprise. Décrire comment un objet change d'état au cours de son existence."
+    },
+    {
+        id: 10,
+        title: "MCT",
+        url: "/MCT",
+        img: exempleMCT,
+        spec: "MERISE",
+        cardtxt: "Le MCT ou Modèle Conceptuel des Traitements : il présente graphiquement, sous la forme de schémas avec des éléments bien définis, les traitements qui doivent être informatisés. Il permet d’identifier le fonctionnement du système d’information."
     },
     {
         id: 5,
@@ -76,22 +92,6 @@ export const CardInfos =
         img: exempleMCD,
         spec: "MERISE",
         cardtxt: "Le MCD fournit une description graphique pour représenter des modèles de données sous la forme de diagrammes pouvant contenir des entités ou des associations. Il peut être utilisé pour décrire les besoins en information ou par exemple le genre d'information nécessaire à l'élaboration du cahier des charges."
-    },
-    {
-        id: 9,
-        title: "MPD",
-        url: "/MPD",
-        img: exempleMPD,
-        spec: "MERISE",
-        cardtxt: "Dans la méthode Merise, le modèle physique des données (MPD) consiste à implanter une base de données dans un SGBDR. Le langage utilisé pour ce type d'opération est le SQL."
-    },
-    {
-        id: 10,
-        title: "MCT",
-        url: "/MCT",
-        img: exempleMCT,
-        spec: "MERISE",
-        cardtxt: "Le MCT ou Modèle Conceptuel des Traitements : il présente graphiquement, sous la forme de schémas avec des éléments bien définis, les traitements qui doivent être informatisés. Il permet d’identifier le fonctionnement du système d’information."
     },
     {
         id: 11,
