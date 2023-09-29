@@ -145,7 +145,7 @@ body {
 }
 
 .cards {
-  background-color: gainsboro;
+  background-color: var(--color-2);
   max-width: 20rem;
   max-height: 700px;
   display: flex;
