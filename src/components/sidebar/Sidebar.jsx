@@ -32,6 +32,8 @@ const Sidebar = () => {
       <button
         className={`toggle-button ${isOpen ? 'close' : 'open'}`}
         onClick={toggleSidebar}
+        alt="btn-close-sidebar"
+        
       >
         {isOpen ? <BsArrowLeft size={30}/> : ''}
       </button>
