@@ -29,14 +29,9 @@ const Sidebar = () => {
     <div>
      <BsArrowRight  size={`${isOpen ? "" : 70}`} id="open-icon"className={`${isOpen ? 'hidden' : 'on position'}`} onClick={toggleSidebar}/>
     <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
-      <button
-        className={`toggle-button ${isOpen ? 'close' : 'open'}`}
-        onClick={toggleSidebar}
-        alt="btn-close-sidebar"
-        
-      >
-        {isOpen ? <BsArrowLeft size={30}/> : ''}
-      </button>
+    
+        {isOpen ? <BsArrowLeft className={`toggle-button ${isOpen ? 'close' : 'open'}`} onClick={toggleSidebar} size={30}/> : ''}
+      
       <ul className='mt-50'>
         <li><h4 className='h4'><NavLink to={"/overview"}>Overview</NavLink></h4></li>
         <li className='h4 pointer' onClick={toggleDropdown}> DIAGRAMME UML</li>
