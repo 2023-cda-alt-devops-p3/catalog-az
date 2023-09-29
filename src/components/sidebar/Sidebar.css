@@ -2,9 +2,6 @@
 .hidden{
     display: none;
 }
-.fixed{
-  position: fixed;
-}
 .sidebar {
     width: 250px;
     height: 100%;
@@ -18,7 +15,7 @@
     z-index: 1000;
   }
   .position{
-    position: absolute;
+    position: fixed;
     left: -49%;
   }
   .sidebar.open {
