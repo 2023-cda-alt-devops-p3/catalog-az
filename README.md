@@ -1,7 +1,7 @@
 
 [URL Netlify](https://catalog-az.netlify.app)
 
-## H2 Digramme UML :
+### Digramme UML :
     - Diagramme de cas d'utilisation :
         Les diagrammes de cas d'utilisation modélisent le comportement d'un système et permettent de capturer les exigences du système. Les diagrammes de cas d'utilisation décrivent les fonctions générales et la portée d'un système.
 
@@ -21,7 +21,7 @@
         Les diagrammes de séquence permettent d'identifier les classes requises par un système et le comportement des objets de classes au cours des interactions. Vous pouvez détailler les diagrammes de séquence et montrer comment un système accomplit les interactions.
 
     
-## H2 Diagramme Merise : 
+### Diagramme Merise : 
     - Modèle conceptuel des données (MCD) :
         Le MCD fournit une description graphique pour représenter des modèles de données sous la forme de diagrammes pouvant contenir des entités ou des associations. Il peut être utilisé pour décrire les besoins en information ou par exemple le genre d'information nécessaire à l'élaboration du cahier des charges.
 
