@@ -19,7 +19,7 @@ const Pages = () => {
     const location = useLocation();
   return (
     <Routes location={location} key={location.pathname}>
-        <Route path='/' element={""}  />
+        <Route path='/' element={<Overview />}  />
         <Route path='/MCD' element={<Mcd />}  />
         <Route path='/DCU' element={<DiagCasUtilisation />}  />
         <Route path='/DC' element={<DiagClasses />}  />
