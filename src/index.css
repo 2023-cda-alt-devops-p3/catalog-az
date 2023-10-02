@@ -238,6 +238,16 @@ body {
     .titre-section{
       font-size: 20px;
     }
+    .model-picture {
+      width: 100%; 
+      border-radius: 0.25em;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    
+    .cards:hover > .model-picture {
+      transform: translateY(-10%);
+      box-shadow: 0rem 1.2rem 1rem 0rem rgba(0, 0, 0, 0.34);
+    }
   }
 
 
@@ -262,6 +272,16 @@ body {
   }
   .titre {
     font-size: 22px;
+  }
+  .model-picture {
+    width: 100%; 
+    border-radius: 0.25em;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .cards:hover > .model-picture {
+    transform: translateY(-10%);
+    box-shadow: 0rem 1.2rem 1rem 0rem rgba(0, 0, 0, 0.34);
   }
  
 
