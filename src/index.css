@@ -160,11 +160,11 @@ body {
   box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.34);
 }
 
-.model-picture {
-  width: 100%;
+/* .model-picture {
+  width: 100%; 
   border-radius: 0.25em;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
+} */
 
 .cards:hover > .model-picture {
   transform: translateY(-10%);
@@ -221,6 +221,7 @@ body {
 
 .cards img {
     max-height: 140px;
+    width: 300px;
 }
 
 .pointer{
@@ -237,6 +238,11 @@ body {
     }
     .titre-section{
       font-size: 20px;
+    }
+    .cards img {
+      width: 300px;
+      border-radius: 0.25em;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
     
   }
@@ -263,6 +269,11 @@ body {
   }
   .titre {
     font-size: 22px;
+  }
+  .cards img {
+    width: 300px;
+    border-radius: 0.25em;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
   }
 
 }
