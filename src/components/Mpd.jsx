@@ -3,13 +3,11 @@ import exempleMPD from "../assets/exemple-MPD.jpeg";
 import { useEffect } from "react";
 
 const Mpd = () => {
-
   useEffect(() => {
     // 👇️ scroll to top on page load
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
-  
   return (
     <div className="w-80 m-auto">
       <div className="m-auto mt-100">
@@ -51,9 +49,11 @@ const Mpd = () => {
                 reliées à une « clé primaire » dans une autre table.
               </li>
             </ul>
-            <h4 className="mt-50 titre">Voici les étapes pour créer un MPD Merise en 5 étapes simplifiées :</h4>
+            <h4 className="mt-50 titre">
+              Voici les étapes pour créer un MPD Merise en 5 étapes simplifiées
+              :
+            </h4>
             <p className="mt-50 text-infp">
-              
               <br />
               <br />
               1 : Sélectionnez un système de gestion de base de données :<br />
@@ -89,7 +89,9 @@ const Mpd = () => {
               - Envisagez des techniques d’optimisation des performances de base
               de données, telles que la dénormalisation, le partitionnement et
               l’indexation, en fonction des besoins spécifiques et des objectifs
-              de performance de votre application. 5 : Générer des scripts SQL :
+              de performance de votre application.
+              <br />
+              <br /> 5 : Générer des scripts SQL :
               <br />
               - Générez des scripts SQL ou utilisez des outils de modélisation
               de base de données pour créer le schéma de base de données
